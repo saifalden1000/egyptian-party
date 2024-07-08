@@ -1,0 +1,88 @@
+/* home section */
+#home {
+  background: linear-gradient(rgba(214, 46, 51, 0.6), rgba(214, 46, 51, 0.6)),
+    url(../images/events-heavenly-header.jpg);
+  height: 650px;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+aside {
+  width: 250px;
+  background-color: #111;
+  left: -250px;
+
+  padding: 40px 30px 25%;
+}
+aside a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 24px;
+  transition: 0.4s all;
+}
+aside a:hover {
+  color: rgba(214, 46, 51, 0.6);
+}
+.test {
+  width: 100%;
+}
+
+#home span {
+  cursor: pointer;
+}
+
+/*========================== singer section */
+#singer {
+  padding-block: 80px;
+}
+
+.collap {
+  width: 50%;
+  background-color: rgba(214, 46, 51, 0.6);
+}
+.collap h3 {
+  padding-block: 10px;
+  cursor: pointer;
+}
+.collap div {
+  background-color: #ccc;
+  display: none;
+}
+.collap div:nth-child(2) {
+  display: block;
+}
+@media (max-width: 600px) {
+  .collap {
+    width: 90%;
+  }
+}
+@media (max-width: 970px) {
+  .collap {
+    width: 80%;
+  }
+}
+/*================ count down section  */
+
+#count {
+  background: linear-gradient(rgba(214, 46, 51, 0.6), rgba(214, 46, 51, 0.6)),
+    url(../images/invitation-2508607__340.jpg);
+  min-height: 300px;
+  background-size: cover;
+  background-position: center;
+}
+#count div {
+  color: white;
+  font-size: 40px;
+}
+
+/* ============= contact section */
+.social i {
+  padding-right: 12px;
+  transition: 0.4s all;
+  font-size: 24px;
+}
+
+.social i:hover {
+  color: red;
+}
